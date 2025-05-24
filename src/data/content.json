@@ -1,0 +1,79 @@
+{
+    "hero": {
+      "headline": "BUILDING THE FUTURE ONE STRONG FOUNDATION AT A TIME",
+      "ctaText": "Learn More",
+      "backgroundImage": "/images/hero.jpg"
+    },
+    "about": {
+        "sectionTitle": "About Us",
+        "mainTitle": "We are future of manufacturing technology",
+        "description": "With a passion for service and a strong focus on our clients' needs, we strive to offer reliable and efficient solutions tailored to each project. Our mission is to build long-lasting relationships through trust, professionalism, and results. Whether you're a small business or a growing brand, we're here to help you stand out and grow with confidence.",
+        "blocks": [
+            {
+            "image": "/about-1.jpg",
+            "title": null,
+            "text": null
+            },
+            {
+            "image": "/about-2.jpg",
+            "title": "25 Years of Industrial Experience",
+            "text": "Our mission is to build long-lasting relationships through trust, professionalism, and results. Whether you're a small business or a growing brand, we're here to help you stand out and grow with confidence."
+            }
+        ]
+    }
+    ,
+    "services": {
+      "title": "Services",
+      "subtitle": "Aliquip ex ea commodo consequat. Duis aute irure dolor in repre henderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "items": [
+        {
+          "number": 1,
+          "title": "Service 1",
+          "description": "Our mission is to build long-lasting relationships through trust, professionalism, and results. Whether you're a small business or a growing brand, we're here to help you stand out and grow with confidence."
+        },
+        {
+          "number": 2,
+          "title": "Service 2",
+          "description": "Our mission is to build long-lasting relationships through trust, professionalism, and results. Whether you're a small business or a growing brand, we're here to help you stand out and grow with confidence."
+        },
+        {
+          "number": 3,
+          "title": "Service 3",
+          "description": "Our mission is to build long-lasting relationships through trust, professionalism, and results. Whether you're a small business or a growing brand, we're here to help you stand out and grow with confidence."
+        }
+      ]
+    },
+    "projects": {
+      "title": "Our latest work",
+      "description": "With a passion for service and a strong focus on our clients' needs, we strive to offer reliable and efficient solutions tailored to each project. Our mission is to build long-lasting relationships through trust, professionalism, and results. Whether you're a small business or a growing brand, we're here to help you stand out and grow with confidence.",
+      "images": [
+        "/projects/p1.jpg",
+        "/projects/p2.jpg",
+        "/projects/p3.jpg",
+        "/projects/p4.jpg",
+        "/projects/p5.jpg",
+        "/projects/p6.jpg"
+      ]
+    }
+    ,
+    "contact": {
+      "info": {
+        "callUs": "+1 (234) 567-890",
+        "email": "contact@yourcompany.com",
+        "location": "123 Main Street, City, Country",
+        "workingHours": "Mon–Fri: 8am–5pm"
+      },
+      "socials": [
+        { "platform": "Facebook", "url": "#", "icon": "/icons/facebook.svg" },
+        { "platform": "Instagram", "url": "#", "icon": "/icons/instagram.svg" },
+        { "platform": "LinkedIn", "url": "#", "icon": "/icons/linkedin.svg" }
+      ],
+      "form": {
+        "placeholderName": "Name",
+        "placeholderEmail": "Email",
+        "placeholderMessage": "Message",
+        "submitText": "Send"
+      }
+    }
+  }
+  
