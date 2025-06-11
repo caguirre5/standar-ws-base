@@ -14,7 +14,7 @@ const Hero = () => {
       animate={{ opacity: 1 }}
       transition={{ duration: 1 }}
     >
-      <Header />
+      <Header layout='end'/>
       <div className="absolute top-0 left-0 w-full h-full bg-[#00000042] z-10"
       />
 
