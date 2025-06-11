@@ -1,4 +1,4 @@
-import content from '../data/content.json';
+import content from '../../data/content.json';
 
 const About = () => {
   const { sectionTitle, mainTitle, description, blocks } = content.about;

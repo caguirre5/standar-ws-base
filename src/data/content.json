@@ -45,28 +45,21 @@
     },
     "projects": {
       "title": "Our latest work",
-      "description": "With a passion for service and a strong focus on our clients' needs, we strive to offer reliable and efficient solutions tailored to each project. Our mission is to build long-lasting relationships through trust, professionalism, and results. Whether you're a small business or a growing brand, we're here to help you stand out and grow with confidence.",
-      "images": [
-        "/projects/p1.jpg",
-        "/projects/p2.jpg",
-        "/projects/p3.jpg",
-        "/projects/p4.jpg",
-        "/projects/p5.jpg",
-        "/projects/p6.jpg"
-      ]
+      "description": "With a passion for service and a strong focus on our clients' needs, we strive to offer reliable and efficient solutions tailored to each project. Our mission is to build long-lasting relationships through trust, professionalism, and results. Whether you're a small business or a growing brand, we're here to help you stand out and grow with confidence."
     }
     ,
     "contact": {
       "info": {
-        "callUs": "+1 (234) 567-890",
-        "email": "contact@yourcompany.com",
+        "callUs": ["+1 (235) 567-890", "+1 (234) 987-654"],
+        "email": ["contact@yourcompany.com", "support@yourcompany.com"],
         "location": "123 Main Street, City, Country",
-        "workingHours": "Mon–Fri: 8am–5pm"
+        "workingHours": ["Mon–Fri: 8am–5pm","Sun: Closed"]
       },
       "socials": [
-        { "platform": "Facebook", "url": "#", "icon": "/icons/facebook.svg" },
-        { "platform": "Instagram", "url": "#", "icon": "/icons/instagram.svg" },
-        { "platform": "LinkedIn", "url": "#", "icon": "/icons/linkedin.svg" }
+        { "platform": "Facebook", "url": "https://facebook.com/yourpage" },
+        { "platform": "Twitter", "url": "https://twitter.com/yourpage" },
+        { "platform": "Instagram", "url": "https://instagram.com/yourpage" },
+        { "platform": "LinkedIn", "url": "https://linkedin.com/in/yourpage" }
       ],
       "form": {
         "placeholderName": "Name",
