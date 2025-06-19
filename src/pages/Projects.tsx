@@ -4,7 +4,13 @@ import bottomimage from "../images/sec_projects/BottomImage.png";
 import content from '../data/content.json';
 import { motion } from "framer-motion";
 
+import p1 from "../images/projects/p1.jpg"
+import p2 from "../images/projects/p2.jpg"
+import p3 from "../images/projects/p3.jpg"
+import p4 from "../images/projects/p4.jpg"
+
 const Projects = () => {
+    const images = [p1, p2, p3, p4]
 
     return(
         <div>
@@ -47,7 +53,7 @@ const Projects = () => {
                         {/* Imagen */}
                         <div className={`w-full lg:w-[40%] ${isEven ? 'order-2 lg:order-1' : 'order-2 lg:order-2'}`}>
                             <img
-                            src={project.image}
+                            src={images[i]}
                             alt={project.name}
                             className="w-full h-auto rounded-xl object-cover shadow-md"
                             />
