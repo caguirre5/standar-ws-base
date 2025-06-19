@@ -3,17 +3,18 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
 import logo from '../assets/logo-example.png';
+import { Link } from 'react-router-dom';
 
 type HeaderProps = {
   layout?: 'centered' | 'end';
 };
 
 const navItems = [
-  { label: 'Home', href: '#home' },
-  { label: 'About', href: '#about' },
-  { label: 'Services', href: '#services' },
-  { label: 'Projects', href: '#projects' },
-  { label: 'Contact', href: '#contact' },
+  { label: 'Home', href: '/' },
+  { label: 'About', href: '/about' },
+  { label: 'Services', href: '/services' },
+  { label: 'Projects', href: '/projects' },
+  { label: 'Contact', href: '/contact' },
 ];
 
 const Header = ({ layout = 'centered' }: HeaderProps) => {
@@ -34,22 +35,26 @@ const Header = ({ layout = 'centered' }: HeaderProps) => {
             <>
               <nav className="flex space-x-8 text-white font-medium text-sm">
                 {navItems.map(({ label, href }) => (
-                  <a key={href} href={href} className="hover:text-orange-300 transition">{label}</a>
+                  <Link key={href} to={href} className="hover:text-orange-300 transition">
+                    {label}
+                  </Link>
                 ))}
               </nav>
               <button className="border text-base border-white text-white px-6 py-2 rounded-full hover:bg-white hover:text-black transition duration-300">
-                Contact
+              Call Us
               </button>
             </>
           ) : (
             <>
               <nav className="flex space-x-6 text-white font-medium text-sm">
                 {navItems.map(({ label, href }) => (
-                  <a key={href} href={href} className="hover:text-orange-300 transition">{label}</a>
+                  <Link key={href} to={href} className="hover:text-orange-300 transition">
+                    {label}
+                  </Link>
                 ))}
               </nav>
               <button className="border text-base border-white text-white px-6 py-2 rounded-full hover:bg-white hover:text-black transition duration-300">
-                Contact
+              Call Us
               </button>
             </>
           )}
@@ -82,15 +87,15 @@ const Header = ({ layout = 'centered' }: HeaderProps) => {
               {/* Navegación */}
               <nav className="flex flex-col gap-4 text-lg font-medium mt-4">
                 {navItems.map(({ label, href }) => (
-                  <a key={href} href={href} onClick={() => setIsOpen(false)} className="hover:text-orange-300 transition">
+                  <Link key={href} to={href} className="hover:text-orange-300 transition">
                     {label}
-                  </a>
+                  </Link>
                 ))}
               </nav>
 
               {/* Botón Contact también en el menú */}
               <button className="mt-auto border text-base border-white text-white px-6 py-2 rounded-full hover:bg-white hover:text-black transition duration-300">
-                Contact
+                Call Us
               </button>
             </motion.div>
           )}

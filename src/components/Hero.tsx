@@ -8,15 +8,14 @@ const Hero = () => {
 
   return (
     <motion.section
-      className="relative w-full min-h-screen bg-cover bg-center bg-fixed flex justify-center px-4 sm:px-6" // 👈 Añadir padding horizontal en móvil
+      className="relative w-full min-h-screen bg-cover bg-center bg-fixed flex justify-center px-4 sm:px-6" 
       style={{ backgroundImage: `url(${image})` }}
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 1 }}
     >
       <Header layout='end'/>
-      <div className="absolute top-0 left-0 w-full h-full bg-[#00000042] z-10"
-      />
+      <div className="absolute top-0 left-0 w-full h-full bg-[#00000042] z-10"/>
 
       <div className="w-full max-w-[90%] md:max-w-[90%] lg:max-w-[80%] relative z-20 min-h-full flex flex-col 
         justify-center items-center 

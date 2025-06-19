@@ -1,4 +1,5 @@
 import content from '../../data/content.json';
+import Image1 from "../../images/sechome/Image1.png"
 
 const About = () => {
   const { sectionTitle, mainTitle, description, blocks } = content.about;
@@ -15,7 +16,7 @@ const About = () => {
         <div className="w-full lg:w-1/2 order-2 lg:order-1">
           {blocks[1]?.image && (
             <img
-              src={blocks[1].image}
+              src={Image1}
               alt="About Block 2"
               className="w-full h-auto rounded-xl object-cover shadow-md"
             />

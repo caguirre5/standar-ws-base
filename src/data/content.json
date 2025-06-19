@@ -6,46 +6,109 @@
     },
     "about": {
         "sectionTitle": "About Us",
-        "mainTitle": "We are future of manufacturing technology",
-        "description": "With a passion for service and a strong focus on our clients' needs, we strive to offer reliable and efficient solutions tailored to each project. Our mission is to build long-lasting relationships through trust, professionalism, and results. Whether you're a small business or a growing brand, we're here to help you stand out and grow with confidence.",
-        "blocks": [
+          "mainTitle": "Driving innovation in the automotive world",
+          "description": "Guided by a deep commitment to excellence and customer satisfaction, we deliver automotive solutions that are both innovative and reliable. Every service we offer is customized to meet specific client needs. From first-time buyers to long-time customers, we aim to create experiences built on trust, quality, and long-term relationships.",
+          "blocks": [
             {
-            "image": "/about-1.jpg",
-            "title": null,
-            "text": null
+              "image": "/about-1.jpg",
+              "title": null,
+              "text": null
             },
             {
-            "image": "/about-2.jpg",
-            "title": "25 Years of Industrial Experience",
-            "text": "Our mission is to build long-lasting relationships through trust, professionalism, and results. Whether you're a small business or a growing brand, we're here to help you stand out and grow with confidence."
+              "image": "/about-2.jpg",
+              "title": "Decades of Automotive Excellence",
+              "text": "Backed by years of industry experience, our team is focused on building lasting partnerships through precision, transparency, and superior service. Whether you're exploring your first vehicle or adding to your fleet, we’re here to help you achieve your automotive goals with confidence."
             }
-        ]
+          ],
+        "ourHistory": "Founded with a passion for cars and a commitment to service, our dealership has grown from a small family-run operation into a trusted automotive hub in the region. Over the years, we've built long-term relationships with our clients by offering honest advice, dependable service, and high-quality vehicles. Whether it's helping a first-time buyer find the perfect car, customizing vehicles for adventurous road trips, or organizing community events like classic car meetups and test-drive weekends, we strive to go beyond just selling cars—we create experiences. Our history is defined by integrity, innovation, and a dedication to helping every customer drive away with confidence.",
+        "values": [
+          {
+            "title": "Integrity",
+            "text": "We uphold honesty and strong moral principles in all we do."
+          },
+          {
+            "title": "Innovation",
+            "text": "We constantly seek creative solutions to exceed expectations."
+          },
+          {
+            "title": "Teamwork",
+            "text": "Collaboration and support are at the heart of our success."
+          }
+        ],
+        "section1": {
+          "title": "Committed to Quality, Driven by Trust",
+          "paragraph1": "Whether it’s guiding you through your first car purchase or upgrading your current vehicle, our team is here to provide expert advice and a personalized experience. We believe in transparency, integrity, and building long-term relationships that go beyond a single transaction.",
+          "subtitle": "Over 25 Years of Trusted Service",
+          "paragraph2": "Our legacy is built on quality, consistency, and customer loyalty. For more than two decades, we’ve been a reliable partner to families and businesses alike, offering automotive solutions that combine technical excellence with genuine care. Throughout the years, we’ve adapted to new technologies, embraced innovation, and expanded our capabilities to better serve our community. From routine maintenance to complex repairs and personalized upgrades, our team is committed to delivering outstanding results and ensuring that every client drives away with peace of mind and total satisfaction."
+        }
     }
     ,
     "services": {
-      "title": "Services",
-      "subtitle": "Aliquip ex ea commodo consequat. Duis aute irure dolor in repre henderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "title": "What we offer to keep you moving",
+      "subtitle": "From maintenance to custom upgrades, our services are designed to keep your vehicle performing at its best.",
+      "section1":{
+        "title": "We provide the best service in industry",
+        "text": "At our dealership, excellence isn’t just a promise – it’s our standard. From top-tier maintenance and repair services to personalized vehicle customization and expert sales guidance, we’re committed to delivering a seamless experience from start to finish. Our team of specialists is driven by passion, precision, and a deep understanding of what each client truly needs. Whether you're buying your first car or upgrading to your dream model, we ensure that every step of your journey is handled with care, efficiency, and integrity."
+      },
       "items": [
         {
           "number": 1,
           "title": "Service 1",
-          "description": "Our mission is to build long-lasting relationships through trust, professionalism, and results. Whether you're a small business or a growing brand, we're here to help you stand out and grow with confidence."
+          "description": "This is where you can provide a detailed overview of your service, highlighting its key benefits and unique features. Use this space to explain what makes your offering valuable and how it can solve customer needs or improve their experience. A clear, informative description helps build trust and encourages clients to take the next step."
         },
         {
           "number": 2,
           "title": "Service 2",
-          "description": "Our mission is to build long-lasting relationships through trust, professionalism, and results. Whether you're a small business or a growing brand, we're here to help you stand out and grow with confidence."
+          "description": "This is where you can provide a detailed overview of your service, highlighting its key benefits and unique features. Use this space to explain what makes your offering valuable and how it can solve customer needs or improve their experience. A clear, informative description helps build trust and encourages clients to take the next step."
         },
         {
           "number": 3,
           "title": "Service 3",
-          "description": "Our mission is to build long-lasting relationships through trust, professionalism, and results. Whether you're a small business or a growing brand, we're here to help you stand out and grow with confidence."
+          "description": "This is where you can provide a detailed overview of your service, highlighting its key benefits and unique features. Use this space to explain what makes your offering valuable and how it can solve customer needs or improve their experience. A clear, informative description helps build trust and encourages clients to take the next step."
         }
-      ]
+      ],
+      "section2":{
+        "title": "Driven by dedication, powered by trust",
+        "text": "Every service we offer is backed by a deep commitment to quality, precision, and client satisfaction. From the simplest inspections to complete overhauls, we treat every vehicle with the care it deserves. Our journey is built on long-standing relationships and a passion for keeping drivers safe and confident on the road."
+      },
+      "section3": {
+        "title": "Precision, passion, and performance",
+        "text": "Behind every service we deliver is a team that cares — about your car, your time, and your trust. From routine checkups to complex upgrades, we work with passion and precision to ensure your vehicle is always ready for the road ahead."
+      }
     },
     "projects": {
       "title": "Our latest work",
-      "description": "With a passion for service and a strong focus on our clients' needs, we strive to offer reliable and efficient solutions tailored to each project. Our mission is to build long-lasting relationships through trust, professionalism, and results. Whether you're a small business or a growing brand, we're here to help you stand out and grow with confidence."
+      "description": "With a passion for service and a strong focus on our clients' needs, we strive to offer reliable and efficient solutions tailored to each project. Our mission is to build long-lasting relationships through trust, professionalism, and results. Whether you're a small business or a growing brand, we're here to help you stand out and grow with confidence.",
+      "section1":{
+        "title": "Innovation and Experience on the Road",
+        "text": "From high-end vehicle customizations to community-driven events, our projects reflect our dedication to quality, innovation, and customer satisfaction. We believe in creating memorable experiences and delivering top-tier automotive solutions that go beyond expectations."
+      },
+      "projects": [
+        {
+          "name": "Complete Expedition Build – Jeep Gladiator Overland",
+          "description": "We transformed a Jeep Gladiator into a full expedition machine with rooftop tent, solar panels, snorkel, and navigation system for an adventurous client.",
+          "image": "/projects/p1.jpg"
+        },
+        {
+          "name": "Test Drive Weekend – 2024 Lineup Experience",
+          "description": "A weekend dedicated to test driving our entire 2024 vehicle lineup, featuring personalized guidance and exclusive perks for all attendees.",
+          "image": "/projects/p2.jpg"
+        },
+        {
+          "name": "Customer Day 2024 – Celebrating Loyalty",
+          "description": "We hosted a community event with live music, food trucks, activities, and test drives to show appreciation to our loyal clients and strengthen our bond.",
+          "image": "/projects/p3.jpg"
+        },
+        {
+          "name": "Retro Ride – 1st Classic Car Road Tour",
+          "description": "We organized a scenic highway road trip with over 30 classic cars, celebrating vintage auto culture and building connections among enthusiasts.",
+          "image": "/projects/p4.jpg"
+        }
+      ],
+      "section2":{
+        "title": "Crafting unique automotive experiences",
+        "text": "Driven by passion, built for adventure."
+      }
     }
     ,
     "contact": {
@@ -58,8 +121,7 @@
       "socials": [
         { "platform": "Facebook", "url": "https://facebook.com/yourpage" },
         { "platform": "Twitter", "url": "https://twitter.com/yourpage" },
-        { "platform": "Instagram", "url": "https://instagram.com/yourpage" },
-        { "platform": "LinkedIn", "url": "https://linkedin.com/in/yourpage" }
+        { "platform": "Instagram", "url": "https://instagram.com/yourpage" }
       ],
       "form": {
         "placeholderName": "Name",

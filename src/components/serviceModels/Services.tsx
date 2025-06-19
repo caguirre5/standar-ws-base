@@ -1,5 +1,5 @@
 import content from '../../data/content.json';
-import bgImage from '../../images/services.jpg';
+import bgImage from '../../images/portraits/contact.png';
 
 interface ServiceItem {
   number: string | number;
@@ -34,7 +34,7 @@ const Services = () => {
         className="lg:hidden relative w-full bg-cover bg-center bg-fixed px-4 py-20 text-center"
         style={{ backgroundImage: `url(${bgImage})` }}
       >
-        <div className="absolute inset-0 bg-orange-400/60 z-0" />
+        <div className="absolute inset-0 bg-black/40 z-0" />
         <div className="relative z-10 max-w-[85%] md:max-w-[80%] mx-auto">
           <h2 className="text-2xl md:text-3xl font-bold">{title}</h2>
           <p className="mt-4 text-sm md:text-base max-w-2xl mx-auto leading-relaxed">
@@ -48,7 +48,7 @@ const Services = () => {
         className="hidden lg:flex relative w-full min-h-screen bg-cover bg-center bg-fixed flex-col justify-start items-center px-6 pt-32 pb-16"
         style={{ backgroundImage: `url(${bgImage})` }}
       >
-        <div className="absolute inset-0 bg-orange-400/60 z-0" />
+        <div className="absolute inset-0 bg-black/40 z-0" />
         <div className="absolute bottom-0 left-0 w-full h-[40vh] bg-[#e5e7eb] z-0" />
 
         {/* Encabezado desktop */}

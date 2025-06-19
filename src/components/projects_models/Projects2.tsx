@@ -28,7 +28,7 @@ const Projects = () => {
 
   return (
     <section className="bg-white py-[10vh] px-6 md:px-20">
-      <div className="max-w-[85%] md:max-w-[90%] lg:max-w-[80%] mx-auto grid grid-cols-1 lg:grid-cols-[2fr_1fr] gap-10 items-center">
+      <div className="max-w-[90%] md:max-w-[90%] lg:max-w-[80%] mx-auto grid grid-cols-1 lg:grid-cols-[2fr_1fr] gap-10 items-center">
 
         {/* 📱 Carrusel funcional solo en móvil */}
         <div className="block md:hidden order-1 relative">
